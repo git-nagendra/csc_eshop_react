@@ -6,11 +6,11 @@ function Header() {
     <>
       <div className="header p-2">
         <div className="container">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center justify-content-between">
             <div className="logo_wrapper">
               <img src={logo} alt="" />
             </div>
-            <nav className="mx-auto">
+            <nav className="nav_menu">
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -46,6 +46,11 @@ function Header() {
             <div className="login_btn">
               <button className="user_logon">User login</button>
               <div className="btn_pointer"></div>
+            </div>
+            <div className="ham">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
           </div>
         </div>

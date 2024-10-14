@@ -73,3 +73,4 @@ function pauseMarquee() {
 function startMarquee() {
   document.querySelector('.marquee-content').style.animationPlayState = 'running';
 }
+

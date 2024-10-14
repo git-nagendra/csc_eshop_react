@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 html,
 body {
@@ -124,7 +123,7 @@ nav > ul > li > a {
   transition: 0.3s ease-in-out;
 }
 
-.subMenu_wrapper .fa-angle-down{
+.subMenu_wrapper .fa-angle-down {
   transition: 0.4s ease-in-out;
 }
 .subMenu_wrapper:hover .fa-angle-down {
@@ -155,9 +154,9 @@ nav > ul > li > a {
   color: #ffffff;
   background: #57ba98;
 }
-.login{
-  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279), -7px -7px 12px rgba(0, 0, 0, 0.279);
-
+.login {
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279),
+    -7px -7px 12px rgba(0, 0, 0, 0.279);
 }
 .user_logon::after {
   content: "";
@@ -170,7 +169,7 @@ nav > ul > li > a {
   z-index: -1;
   transition: 0.4s ease-in-out;
 }
-.all_btn{
+.all_btn {
   border: none;
   padding: 6px 13px;
   max-width: 100px;
@@ -275,19 +274,47 @@ nav > ul > li > a {
   100% { top: 100%; }
 } */
 
-.inner_shado{
-   background-color: #42987a !important;
-   border: none !important;
-   color: #ffffff !important;
-  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279), -7px -7px 12px rgba(0, 0, 0, 0.279);
+.inner_shado {
+  background-color: #42987a !important;
+  border: none !important;
+  color: #ffffff !important;
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279),
+    -7px -7px 12px rgba(0, 0, 0, 0.279);
   /* box-shadow: inset -7px -7px 12px rgba(255, 255, 255, 0.9), inset 7px 7px 12px rgba(0, 0, 0, 0.4); */
 }
-::placeholder{
+::placeholder {
   color: #ffffff !important;
 }
-.inner_shado:focus{
-  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279), -7px -7px 12px rgba(0, 0, 0, 0.279) !important;
+.inner_shado:focus {
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.279),
+    -7px -7px 12px rgba(0, 0, 0, 0.279) !important;
 }
-.contact_wrapper{
-  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.132), -7px -7px 12px rgba(0, 0, 0, 0.132) !important;
+.contact_wrapper {
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.132),
+    -7px -7px 12px rgba(0, 0, 0, 0.132) !important;
+}
+.ham {
+  height: 40px;
+  width: 40px;
+  border: 2px solid red;
+  position: relative;
+}
+.ham span {
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 28px;
+  top: 18px;
+  left: 3px;
+}
+.ham span:nth-child(1) {
+  transform: translateY(8px);
+}
+.ham span:nth-child(3) {
+  transform: translateY(-8px);
+}
+@media only screen and (max-width: 998px) {
+  .nav_menu {
+    display: none;
+  }
 }

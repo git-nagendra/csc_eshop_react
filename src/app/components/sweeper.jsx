@@ -26,7 +26,8 @@ function Sweeper() {
       <SwiperSlide>
         <div
           style={{
-            backgroundImage: `url(${sliderImg})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${sliderImg})`,
+            // backgroundImage:`url(${sliderImg})`,
             backgroundPosition: 'center center',
             backgroundSize: 'cover',
             height: '100vh',
@@ -37,7 +38,7 @@ function Sweeper() {
       <SwiperSlide>
         <div
           style={{
-            backgroundImage: `url(${sliderImg2})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${sliderImg2})`,
             backgroundPosition: 'top center',
             backgroundSize: 'cover',
             height: '100vh',
@@ -59,7 +60,7 @@ function Sweeper() {
       <SwiperSlide>
         <div
           style={{
-            backgroundImage: `url(${sliderImg3})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${sliderImg3})`,
             backgroundPosition: 'top center',
             backgroundSize: 'cover',
             height: '100vh',
